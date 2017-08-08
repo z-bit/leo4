@@ -18,7 +18,7 @@ import {
 })
 export class MyMaterialModule {}
 ```
-#####import-list  
+**import-list**  
 ```
     MdAutocompleteModule,
     MdButtonModule,
