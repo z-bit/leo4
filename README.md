@@ -1,3 +1,3 @@
 # Leo4
 
-* ####[Installation](./doc/installation.md)
+* **[Installation](./doc/installation.md)**
