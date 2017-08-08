@@ -2,6 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import 'hammerjs';
+import { MyMaterialModule } from './common/my-material.module';
+
+import { AgGridModule } from 'ag-grid-angular';
+
 
 
 import { AppComponent } from './app.component';
@@ -12,7 +16,10 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    MyMaterialModule,
+    AgGridModule,
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
